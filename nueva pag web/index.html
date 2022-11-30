@@ -7,18 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etiquetas 2</title>
     <style>
-        header {
+        header,
+        section,
+        article,
+        aside,
+        footer {
             text-align: center;
             font-size: large;
             background-color: #E8F2A1;
             border: solid #2067CA 1px;
             border-radius: 15px;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
 
+        }
+    div{
+        display: flex
+    }
+    section{
+        width: 20%
+    }
+    
+
+        /*  
         section {
             text-align: center;
             font-size: large;
@@ -46,7 +59,7 @@
             margin-top: 20px;
             margin-left: 50px;
             margin-right: 50px;
-        }
+        }*/
     </style>
 </head>
 
@@ -55,43 +68,43 @@
         <h1>Título del encabezado</h1>
         <p><b>Texto del encabezado</b></p>
     </header>
-    <section>
-        <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-            <li>Elemento 4</li>
-            <li>Elemento 5</li>
-
-        </ul>
-    </section>
-    <section style="background-color: #FFF5CE ;">
-        <article>
-            <h2>
-                Título del artículo 1
-            </h2>
+    <div>
+        <section style="background-color:#F7D1D5 ;">
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>
+            </ul>
+        </section>
+        <section style="width: 40%;background-color:#FFF5CE;">
+            <article style="background-color: #FFF5CE;">
+                <h2>
+                    Título del artículo 1
+                </h2>
+                <p>
+                    Texto del artículo 1
+                </p>
+            </article>
+            <article style="background-color: #FFF5CE;">
+                <h2>
+                    Título del artículo 2
+                </h2>
+                <p>Texto del artículo 2</p>
+            </article>
+        </section>
+        <aside style="width: 40%;background-color: #DEDCE6;">
+            <h1>
+                Título de aside
+            </h1>
             <p>
-                Texto del artículo 1
+                Contenido del Aside
             </p>
-        </article>
-        <article>
-            <h2>
-                Título del artículo 2
-            </h2>
-            <p>Texto del artículo 2</p>
-        </article>
-    </section>
+        </aside>
+    </div>
 
-    <aside>
-        <h1>
-            Título de aside
-        </h1>
-        <p>
-            Contenido del Aside
-        </p>
-    </aside>
-
-    <footer>
+    <footer style="background-color: #CEF2FF;">
         <p>Texto de pie de página</p>
     </footer>
 </body>
