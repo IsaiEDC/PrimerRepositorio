@@ -18,7 +18,8 @@
             text-decoration: none;
             color: #104C42;
         }
-        a:hover{
+
+        a:hover {
             text-decoration: underline;
             color: #002E29;
 
@@ -33,15 +34,45 @@
             color: white;
             text-align: center;
         }
-        footer{
+
+        footer {
             text-align: center;
         }
-        nav{
-            padding-left: 70%;
-            margin-top: 25px;
-        }
-        
 
+        nav {
+            padding-left: 70%;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+
+        .colorL {
+            color: #B08F5C;
+            font-size: large;
+        }
+
+        section {
+            display: flex;
+            padding-left: 300px;
+            padding-top: 80px;
+        }
+
+        .vector {
+            width: 40px;
+        }
+        .p1{
+            color: red; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .p2{
+            color: blue;
+        }
+        .p3{
+            color: violet;
+        }
+        .p4{
+            color: aqua;
+        }
+    
     </style>
 </head>
 
@@ -56,17 +87,23 @@
         <a href="http://">Gobierno</a>
     </nav>
     <section class="imgCDMX">
-        <h1> <b>APRENDE A PROGRAMAR</b> <br>
-            EN LAS <b>ESCUELAS</b> <br>
-            <b>DE CODIGO</b> <br>
-            DE LA CDMX </h1>
+        <div><img src="img/hero-vector.svg" class="vector" alt=""></div>
+        <h1>
+            <span class="p1">APRENDE A PROGRAMAR</span><br>
+            <span class="p2">EN LAS</span>
+            <span class="p3">ESCUELAS DE CODIGO</span>
+            <span class="p4">DE LA CDMX</span>
+        </h1>
     </section>
     <footer>
-        <p style="color: #B08F5C;">
-            <b>¿Quién se puede inscribir?</b>
-        </p>
+        <div class="colorL">
+            <h2>
+                <b>¿Quién se puede inscribir?</b>
+            </h2>
+        </div>
         <p>
-            <b> Cualquier persona que quiera aprender a prograar codigo y cuente con 4 - 8 horas disponibles a la semana. </b>
+            <strong> Cualquier persona que quiera aprender a programar código y cuente con 4 - 8 horas disponibles a la
+                semana. </strong>
             <br>
             *Menores de edad deberan entrar a las instalaciones acompañadas de una adulto.
         </p>
