@@ -5,123 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto final</title>
-    <link rel="stylesheet" href="css/idex.css">
-    <style>
-        section,
-        div {
-            text-align: center;
-            background-color: #D40032;
-            color: white;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        img {
-            width: 40px;
-        }
-
-        header {
-        }
-
-        nav {
-            padding: 60px;
-            margin-top: -90px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: bold;
-        }
-
-        .a1 {
-            padding: 15px;
-            text-decoration: none;
-            color: black;
-        }
-
-        .a2 {
-            color: white;
-        }
-
-        section {
-            background-color: #016241;
-            padding-bottom: 10px;
-            padding-top: 10px;
-        }
-
-        .sectionD {
-            text-align: center;
-        }
-
-        .div1 {
-            display: flex;
-            margin-top: 20px;
-        }
-
-        .colibri {
-            height: 500px;
-            width: 47%;
-        }
-
-        footer {
-            /*padding-top: 15px;
-            border-radius: solid 1px;*/
-            border-top: solid 1px #D3D3D3;
-            padding-top: 10px;
-        }
-
-        .parrafo {
-            padding-top: 150px;
-            margin-right: 200px;
-            background-color: green;
-            text-align: center;
-            font-size: 60px;
-            width: 100%;
-        }
-
-        .Subtitulo {
-            margin-left: 500px;
-            background-color: blue;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <div><img src="img/pngwing.com.png" alt=""></div>
-        <nav>
-            <a class="a1" href="">ARTE</a>
-            <a class="a1" href="">COLECCIONES</a>
-            <a class="a1" href="">CONÓCENOS</a>
-        </nav>
-    </header>
-
+    <div style="display: flex; justify-content: space-between;">
+        <div style="display: flex;"> <a href="#Home"><img style= "width: 50px;" src="img/pngwing.com.png" alt=""></a>
+            <nav>
+                <a class="a" href="#Arte">ARTE</a>
+                <a class="a" href="#Colecciones">COLECCIONES</a>
+                <a class="a" href="#Conócenos">CONÓCENOS</a>
+            </nav>
+        </div>
+        <div class="divbutones">
+            <button class="botonInicio">Iniciar seccion </button>
+            <button class="botonInicio">Registrarse</button>
+        </div>
+    </div>
     <section>
-        <h1>
-            UNA EXPERENCIA <br> TOTALMENTE NUEVA <br> EN EL ARTE
-        </h1>
-        <p>
-            Una tradición milearia nos a acompañado a travez de todo <br>
-            este tiempo.<a class="a2" href="https/google.com">Aprende mas...</a>
-        </p>
+        <h1> UNA EXPERENCIA <br> TOTALMENTE NUEVA <br> EN EL ARTE</h1>
+        <p class="texto"> Una tradición milearia nos a acompañado a travez de todo <br>
+            este tiempo.<a class="aprende" href="#Aprende mas">Aprende mas...</a></p>
     </section>
     <div class="div1">
         <img class="colibri" src="img/alebrijes-en-oaxaca-940x626.jpg" alt="">
-        <div>
-            <h2 class="Subtitulo">ALEBRIJES <br>
+        <div style="width: 50%; text-align: center;">
+
+            <h2 class="Titulo1">ALEBRIJES <br>
                 MEXICANOS</h2>
             <p class="parrafo">Tallados en madera cumplen con la más <br>
-                altas exigencias del diseño.<x| /p>
+                altas exigencias del diseño.</p>
+            <a href="#Has tu pedido"><button class="pedido1">has tu pedido</button></a>
         </div>
-    </div>
-    <div>
-        <h2>CREATIVIDAD E <br>
-            IMAGINACIÓN
-        </h2>
-        <p>Un sueño echo realidad.</p>
-    </div>
-    <footer>
-        <p> © 2022 Todos los derechos reservados al arte popular.</p>
-    </footer>
 
+    </div>
+    <div class="div1">
+        <div style="width: 50%; text-align: center;">
+
+            <h2 class="Titulo1">CREATIVIDAD E IMAGINACIÓN</h2>
+            <p class="parrafo">Un sueño hecho realidad.</p>
+            <a href="#Has tu pedido"><button class="pedido1">has tu pedido</button></a>
+        </div>
+        <img class="colibri" src="img/alebrijes-en-oaxaca-940x626.jpg" alt="">
+
+    </div>
+
+    <footer>
+        <a class="redes" href="#spotify"><img src="img/icons8-spotify-30.png" alt=""></a>
+        <a class="redes" href="#facebook"><img src="img/icons8-facebook-nuevo-30.png" alt=""></a>
+        <a class="redes" href="#pinterest"><img src="img/icons8-pinterest-30.png" alt=""></a>
+        <a class="redes" href="#instagram"><img src="img/icons8-instagram-30.png" alt=""></a>
+        <a class="redes" href="#youtube"><img src="img/icons8-youtube-play-30.png" alt=""></a>
+        <a class="redes" href="#twitter"><img src="img/icons8-twitter-30.png" alt=""></a>
+        <p class="derechosdeautor"> © 2022 Todos los derechos reservados al arte popular.</p>
+    </footer>
 </body>
 
 </html>
